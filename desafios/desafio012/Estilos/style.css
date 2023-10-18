@@ -83,12 +83,12 @@ section > p{
 }
 
 #img1{
-    background-image: url(../desafios/desafio012/imagens/background001.jpg);
+    background-image: url(/desafios/desafio012/imagens/background001.jpg);
     background-position: right center
 }
 
 #img2{
-    background-image: url(../desafios/desafio012/imagens/background002.jpg);
+    background-image: url(/desafios/desafio012/imagens/background002.jpg);
     background-position: right center
 }
 
