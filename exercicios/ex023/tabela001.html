@@ -11,20 +11,27 @@
         table{
             margin: auto;
             text-align: center;
+            height: 100px;
             width: 400px;
             border-collapse: collapse;
-            background-image: linear-gradient(to bottom, yellow, orange, red);
         }
 
         td{
             border: 3px solid black;
-            padding: 8px
+            padding: 8px;
+            text-align:center;
+            vertical-align:middle ;
+
+        }
+
+        .numero{
+            text-align: right;
         }
 
     </style>
 </head>
 <body>
-    <h1 style="text-align: center;">Minha Primeira Tabela</h1>
+    <h1>Minha Primeira Tabela</h1>
     <!--
         Hierarquia de Tabelas
          Table = Tabela
@@ -32,7 +39,7 @@
             Table Hrader = cabeçalho de tabela
             Table Data = dado de tabela
     -->
-    <table class="importante">
+    <table>
         <tr> <!--Primeira linha-->
             <td>A1</td>
             <td>B1</td>
@@ -41,12 +48,12 @@
         <tr >
             <td>A2</td>
             <td>B2</td>
-            <td>C2</td>
+            <td class="numero">C2</td>
         </tr>
         <tr>
             <td>A3</td>
             <td>B3</td>
-            <td>C3</td>
+            <td class="numero">C3</td>
         </tr>
         <tr>
             <td>A4</td>
